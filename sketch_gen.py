@@ -52,5 +52,5 @@ prompt = "An image of a dog drawn with a single continuous line without picking 
 # Generate and display image
 # image_url = generate_image(prompt)
 image_url = "https://oaidalleapiprodscus.blob.core.windows.net/private/org-BHeGyeohREjILCYGYY9lf7dT/user-lIlP4QmHSmfHPDW2lRLPDVSX/img-Z9oJ54dfIeqasP60XNjqQ0Ny.png?st=2024-04-23T20%3A21%3A10Z&se=2024-04-23T22%3A21%3A10Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-04-22T23%3A52%3A03Z&ske=2024-04-23T23%3A52%3A03Z&sks=b&skv=2021-08-06&sig=VJ1NxuCVAlHAotALDleARAM2adjxrr5VWey96/ysjuc%3D"
-filename = f"generated_image-{datetime.now().strftime('%m-%d_%H-%M-%S')}.png"
+filename = f"images/generated_image-{datetime.now().strftime('%m-%d_%H-%M-%S')}.png"
 download_image(image_url, filename)

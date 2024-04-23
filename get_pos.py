@@ -48,7 +48,7 @@ def dfs_traversal(image, x, y):
 
 def main():
     # Load image
-    image = cv2.imread('dog_256_256.png', cv2.IMREAD_GRAYSCALE)
+    image = cv2.imread('images/dog_256_256.png', cv2.IMREAD_GRAYSCALE)
     _, bw_image = cv2.threshold(image, 128, 255, cv2.THRESH_BINARY)
 
     # Convert to pure black and white
